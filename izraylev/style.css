@@ -1,0 +1,42 @@
+body {
+    padding: 15px 30px;
+    
+}
+* {
+    font-family: 'Roboto'; 
+}
+.issue {
+    background-color: #eee;
+    border-radius: 10px;
+    margin-block: 10px;
+    padding: 20px 30px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.form  * {
+    width: 100%;
+}
+
+.form input[type="submit"] {
+    background-color: papayawhip;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.form input {
+    background-color: #eee;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;    
+}
